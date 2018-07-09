@@ -224,5 +224,5 @@ tinyMCE.addI18n('ko', {
   "Didn't get a response from the server": "서버로부터 응답이 없습니다.",
   'Insert': "삽입",
   'Cancel': "취소",
-  'Image description': "이미지 설명",
+  'Image description': "이미지 설명"
 });
