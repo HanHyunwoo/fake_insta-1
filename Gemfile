@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
-
+# 환경변수 관리
+gem 'figaro'
 # 회원관리
 gem 'devise'
 gem 'cancancan', '~> 2.0'
@@ -9,7 +10,8 @@ gem 'kaminari'
 gem 'simple_form'
 # 파일업로드
 gem 'carrierwave', '~> 1.0'
-gem "mini_magick"
+gem 'mini_magick'
+gem 'fog' # cloud service
 
 gem 'faker', :git => 'https://github.com/stympy/faker.git', :branch => 'master'
 gem 'pry-rails'
