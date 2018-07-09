@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem 'aws-sdk-s3'
 # 환경변수 관리
 gem 'figaro'
 # 회원관리
@@ -8,6 +9,11 @@ gem 'cancancan', '~> 2.0'
 # 게시판
 gem 'kaminari'
 gem 'simple_form'
+gem 'tinymce-rails'
+gem 'tinymce-rails-langs'
+gem 'tinymce-rails-imageupload', '~> 4.0.0.beta'
+
+# gem 'tinymce-rails-imageupload', github: 'PerfectlyNormal/tinymce-rails-imageupload'
 # 파일업로드
 gem 'carrierwave', '~> 1.0'
 gem 'mini_magick'
