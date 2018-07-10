@@ -622,4 +622,48 @@ g Create list of required st... nodes for the current kernel...[   62.127390] i
 
 Ubuntu 16.04.4 LTS ubuntu-xenial ttyS0
 
-ubuntu-xenial login: 
+ubuntu-xenial login: [19681.045922] e1000 0000:00:03.0 enp0s3: Detected Tx Unit Hang
+[19681.045922]   Tx Queue             <0>
+[19681.045922]   TDH                  <95>
+[19681.045922]   TDT                  <97>
+[19681.045922]   next_to_use          <97>
+[19681.045922]   next_to_clean        <95>
+[19681.045922] buffer_info[next_to_clean]
+[19681.045922]   time_stamp           <10049d234>
+[19681.045922]   next_to_watch        <96>
+[19681.045922]   jiffies              <10049d3bd>
+[19681.045922]   next_to_watch.status <0>
+[19683.049822] e1000 0000:00:03.0 enp0s3: Detected Tx Unit Hang
+[19683.049822]   Tx Queue             <0>
+[19683.049822]   TDH                  <95>
+[19683.049822]   TDT                  <97>
+[19683.049822]   next_to_use          <97>
+[19683.049822]   next_to_clean        <95>
+[19683.049822] buffer_info[next_to_clean]
+[19683.049822]   time_stamp           <10049d234>
+[19683.049822]   next_to_watch        <96>
+[19683.049822]   jiffies              <10049d5b2>
+[19683.049822]   next_to_watch.status <0>
+[19685.054112] e1000 0000:00:03.0 enp0s3: Detected Tx Unit Hang
+[19685.054112]   Tx Queue             <0>
+[19685.054112]   TDH                  <95>
+[19685.054112]   TDT                  <97>
+[19685.054112]   next_to_use          <97>
+[19685.054112]   next_to_clean        <95>
+[19685.054112] buffer_info[next_to_clean]
+[19685.054112]   time_stamp           <10049d234>
+[19685.054112]   next_to_watch        <96>
+[19685.054112]   jiffies              <10049d7a7>
+[19685.054112]   next_to_watch.status <0>
+[19687.057782] e1000 0000:00:03.0 enp0s3: Detected Tx Unit Hang
+[19687.057782]   Tx Queue             <0>
+[19687.057782]   TDH                  <95>
+[19687.057782]   TDT                  <97>
+[19687.057782]   next_to_use          <97>
+[19687.057782]   next_to_clean        <95>
+[19687.057782] buffer_info[next_to_clean]
+[19687.057782]   time_stamp           <10049d234>
+[19687.057782]   next_to_watch        <96>
+[19687.057782]   jiffies              <10049d99c>
+[19687.057782]   next_to_watch.status <0>
+[19687.537482] e1000 0000:00:03.0 enp0s3: Reset adapter

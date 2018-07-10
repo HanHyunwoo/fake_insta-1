@@ -7,6 +7,8 @@ gem 'figaro'
 gem 'devise'
 gem 'cancancan', '~> 2.0'
 gem 'omniauth-facebook'
+gem 'omniauth-kakao', :git => 'https://github.com/hcn1519/omniauth-kakao'
+
 # 게시판
 gem 'kaminari'
 gem 'simple_form'
