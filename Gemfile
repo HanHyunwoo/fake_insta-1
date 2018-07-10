@@ -6,6 +6,7 @@ gem 'figaro'
 # 회원관리
 gem 'devise'
 gem 'cancancan', '~> 2.0'
+gem 'omniauth-facebook'
 # 게시판
 gem 'kaminari'
 gem 'simple_form'
