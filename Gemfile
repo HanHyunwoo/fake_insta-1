@@ -1,4 +1,6 @@
 source 'https://rubygems.org'
+gem 'rails-i18n', '~> 4.0'
+gem 'devise-i18n'
 
 gem 'aws-sdk-s3'
 # 환경변수 관리
